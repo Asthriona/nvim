@@ -14,7 +14,7 @@ vim.opt.wrap = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = '~/.vim/.undo'
+--vim.opt.undodir = '$XDG_DATA_HOME/nvim/undo//'
 vim.opt.undofile = true
 
 vim.opt.hlsearch = true
