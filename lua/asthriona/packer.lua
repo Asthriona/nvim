@@ -25,8 +25,9 @@ return require('packer').startup(function(use)
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
     use 'andweeb/presence.nvim'
-	
-	use {
+    use('vim-airline/vim-airline')
+    use('vim-airline/vim-airline-themes')
+    use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v3.x',
 		requires = {

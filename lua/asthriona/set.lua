@@ -31,3 +31,5 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = "150"
 
 vim.g.mapleader = " "
+vim.g["airline#extensions#tabline#enabled"] = 1
+vim.g.arline_powerline_font = 1
