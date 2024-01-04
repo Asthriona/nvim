@@ -27,6 +27,7 @@ return require('packer').startup(function(use)
     use 'andweeb/presence.nvim'
     use('vim-airline/vim-airline')
     use('vim-airline/vim-airline-themes')
+    use 'wakatime/vim-wakatime'
     use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v3.x',
