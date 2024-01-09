@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Makot\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["cloak.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Makot\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cloak.nvim",
+    url = "https://github.com/laytan/cloak.nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "C:\\Users\\Makot\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
@@ -125,6 +130,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Makot\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "C:\\Users\\Makot\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-ts-autotag",
+    url = "https://github.com/windwp/nvim-ts-autotag"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Makot\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
@@ -139,11 +149,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Makot\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  ["presence.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Makot\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\presence.nvim",
-    url = "https://github.com/andweeb/presence.nvim"
   },
   ["rose-pine"] = {
     config = { "\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0" },
@@ -170,6 +175,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Makot\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-airline-themes",
     url = "https://github.com/vim-airline/vim-airline-themes"
+  },
+  ["vim-be-good"] = {
+    loaded = true,
+    path = "C:\\Users\\Makot\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-be-good",
+    url = "https://github.com/ThePrimeagen/vim-be-good"
   },
   ["vim-fugitive"] = {
     loaded = true,

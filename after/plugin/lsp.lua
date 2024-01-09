@@ -12,7 +12,6 @@ require('mason-lspconfig').setup({
 require('lspconfig').tsserver.setup({
   single_file_support = false,
   on_attach = function(client, bufnr)
-    print('hello tsserver')
   end
 })
 
@@ -41,6 +40,8 @@ lsp.set_preferences({
       info = '»'
     }
 })
+
+
 
 lsp.on_attach(function(client, bufnr)
   local opts = {buffer = bufnr, remap = false}

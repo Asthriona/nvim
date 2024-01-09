@@ -24,10 +24,13 @@ return require('packer').startup(function(use)
 	use('nvim-treesitter/playground')
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
-    use 'andweeb/presence.nvim'
+    -- use 'andweeb/presence.nvim'
     use('vim-airline/vim-airline')
     use('vim-airline/vim-airline-themes')
     use 'wakatime/vim-wakatime'
+    use 'ThePrimeagen/vim-be-good'
+    use 'windwp/nvim-ts-autotag'
+    use 'laytan/cloak.nvim'
     use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v3.x',
@@ -53,4 +56,5 @@ return require('packer').startup(function(use)
         "windwp/nvim-autopairs",
         config = function() require("nvim-autopairs").setup {} end
     }
+
 end)
