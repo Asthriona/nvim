@@ -14,7 +14,7 @@ Please check my Packer branch if you wanna use it.
 - [x] Install Lazy
 - [ ] Transfere all plugins: 
     - [x] Autopair
-    - [ ] cloac
+    - [x] cloak
     - [x] fugitive
     - [x] harpoon
     - [x] lsp
