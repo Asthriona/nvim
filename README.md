@@ -12,7 +12,7 @@ Please check my Packer branch if you wanna use it.
 
 ## ToDo before Merging:
 - [x] Install Lazy
-- [ ] Transfere all plugins: 
+- [x] Transfere all plugins: 
     - [x] Autopair
     - [x] cloak
     - [x] fugitive
@@ -21,7 +21,7 @@ Please check my Packer branch if you wanna use it.
     - [x] telescope
     - [x] treesitter
     - [x] undotree
-    - [ ] presence (Optional)
+    - [x] presence (Optional)
 - [x] Fix all Errors: 
     - [x] Fix Error on launch.
 - [x] Set my keymaps.
