@@ -16,7 +16,7 @@ Please check my Packer branch if you wanna use it.
     - [x] Autopair
     - [ ] cloac
     - [x] fugitive
-    - [ ] harpoon
+    - [x] harpoon
     - [x] lsp
     - [x] telescope
     - [x] treesitter
