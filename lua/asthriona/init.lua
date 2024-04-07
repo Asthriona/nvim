@@ -15,8 +15,8 @@ if not vim.loop.fs_stat(lazypath) then
     })
 end
 vim.opt.rtp:prepend(lazypath)
+
 -- Leader map
-vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 require('lazy').setup('asthriona.plugins')
