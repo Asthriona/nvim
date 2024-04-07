@@ -14,7 +14,7 @@ vim.opt.wrap = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
---vim.opt.undodir = '$XDG_DATA_HOME/nvim/undo//'
+vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
 
 vim.opt.hlsearch = true
@@ -32,6 +32,5 @@ vim.opt.cursorline = true
 
 vim.opt.colorcolumn = "150"
 
-vim.g.mapleader = " "
 vim.g["airline#extensions#tabline#enabled"] = 1
 vim.g.arline_powerline_font = 1
