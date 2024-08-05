@@ -1,5 +1,8 @@
 return {
-    {
+    rocks = {
+        enabled = false,
+    },
+    spec = {
         "nvim-lua/plenary.nvim",
         name = "plenary"
     },
