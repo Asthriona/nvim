@@ -88,5 +88,16 @@ return {
                 prefix = "",
             },
         })
+        -- diagnostic things
+        vim.keymap.set("n", "<leader>g", vim.diagnostic.open_float, { desc = "Show line diagnostics" })
+        vim.keymap.set("n", "[g", vim.diagnostic.goto_prev, { desc = "Go to provious diagnostics" })
+        vim.keymap.set("n", "]g", vim.diagnostic.goto_next, { desc = "Go to next diagnostics" })
+        vim.keymap.set("n", "<leader>h", vim.lsp.buf.hover, { desc = "Hover documentation" })
+        vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "Show code actions" })
+        vim.keymap.set("n", "C-k", vim.lsp.buf.signature_help, { desc = "Show function signature help" })
+        vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "Go to definition" })
+        vim.keymap.set("n", "gD", vim.lsp.buf.declaration, { desc = "Go to declaration" })
+        vim.keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "Go to implementation" })
+        vim.keymap.set("n", "gr", vim.lsp.buf.references, { desc = "List references" })
     end
 }
